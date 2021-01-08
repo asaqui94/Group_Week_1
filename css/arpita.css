@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+ 
+ color: black !important;
+}
+
+.menu-left-btn{
+    background-color: transparent;
+    border: 1px solid blue !important;
+    border-radius: 5px;
+}
+
+.menu-right-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
