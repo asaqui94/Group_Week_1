@@ -20,3 +20,79 @@ body{
     border-radius: 5px;
     margin-left: 10px;
 }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+ 
+ color: black !important;
+}
+
+.menu-left-btn{
+    background-color: transparent;
+    border: 1px solid blue !important;
+    border-radius: 5px;
+}
+
+.menu-right-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.site-btn1{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.site-btn2{
+    color: blue;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-weight: bold;
+}
+
+.image_right{
+    height: 70vh;
+    width: 30vw;
+    margin-left: 10px
+}
+
+.row{
+    justify-content: center;
+}
+
+.site-title{
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.site-heading{
+    font-size: 45px;
+}
+
+.site-desc{
+    color: grey;
+    font-size: 25px;
+}
+
+.end_desc{
+    color: grey;
+}
+
+.grey{
+    font-weight: bold;
+}
+
+.blue_dot{
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px
+}
