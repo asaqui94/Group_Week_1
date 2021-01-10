@@ -1,23 +1,31 @@
-.body {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-size: 30px;
 
+nav {
+    display: flex;
 }
+
+nav label {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+nav a {
+    flex-basis: 10%; /* 5 anchors * 10 = 75% */
+    text-align: center;
+}
+
 
 .grid-container {
     height: 35vh;
     font-size: 15px;
     display: grid;
     grid-template-columns: repeat (4, 75px);
-    grid-template-rows: 150px 125px 125px 125px;
+    grid-template-rows: repeat (2, 100px);
     grid-row-gap: 0px;
     grid-column-gap: 0px;
     justify-content:space-evenly;
     align-content:space-between;
     margin: 100px;
-    margin-bottom:150px;
+    margin-bottom: 300px;
     
  }
 
@@ -26,7 +34,7 @@
     padding: 5px;
 }
 
-.item-1a {
+.item-1 {
     grid-column-start: 1;
     grid-column-end: 5;
     height: 100px;
@@ -43,7 +51,7 @@
 
 
 
-.item-2a {
+.item-2 {
     grid-column-start: 1;
     grid-column-end: 5;
     height: 60px;
@@ -54,7 +62,7 @@
     
 }
 
-.item-3a {
+.item-3 {
 
     padding-top: 5px;
     padding-bottom: 5px;
@@ -63,12 +71,11 @@
     font-size: 15px; 
     border-radius: 20px;
     border: 2px solid lightgray;
-    background-color: #0314fe;
-    padding-top: 10px;
+    background-color: #0314fe
 
     
 }
-.item-4a {
+.item-4 {
 
     padding-top: 10px;
     padding-bottom: 1px;
@@ -78,11 +85,10 @@
     border-radius: 20px;
     border: 2px solid lightgray;
     margin-top: 5px;
-    
   
 }
 
-.item-5a{
+.item-5{
 
     padding-top: 5px;
     padding-bottom: 5px;
@@ -95,7 +101,7 @@
 
 
 }
-.item-6a{
+.item-6{
 
     padding-top: 5px;
     padding-bottom: 5px;
@@ -107,7 +113,6 @@
 
   
 }
-
 .middle-item-container-2 {
 
     height: auto;
@@ -117,7 +122,7 @@
     font-size: 10px;
     display: grid;
     grid-template-columns: 400px 700px;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(4, 80px);
     grid-row-gap: 0px;
     grid-column-gap: 0px;
     justify-content:center;
@@ -132,7 +137,7 @@
        
   }
     
-.item-7a {
+.item-7 {
     
     grid-row-start: 1;
     grid-row-end: 6;
@@ -145,20 +150,20 @@
     
 }
 
-.item-8a {
+.item-8 {
 
     text-align: center;
     vertical-align: center;
-    margin-top: 20px;
+    margin-bottom: 200px;
     margin-left: 20px;
-    font-size: 50px;
-    
+    font-size: 18px;
+    padding-bottom: 200px;
     
     color: white;
     
    }
 
-.item-9a {
+.item-9 {
 
     text-align: left;
     padding-left: 30px;
@@ -167,7 +172,7 @@
     font-size: 15px;
 }
 
-.item-10a {
+.item-10 {
 
     text-align: left;
     padding-left: 6px;
@@ -176,7 +181,7 @@
     color: white;
 }
 
-.item-11a {
+.item-11 {
 
     color: white;
     padding-bottom: 65px;
@@ -374,35 +379,3 @@ footer {
     height: 45vh;
     color: white
 }
-
-.grid-item-1 {
-
-grid-column-start: 1;
-grid-column-end: 3; 
-text-align: center;
-  
-}
-
-.grid-item-2 {
-
-grid-column-start: 1;
-grid-column-end: 3;
-text-align: center;
-  
-}
-
-.grid-item-3 {
-
-grid-column-start: 1;
-grid-column-end: 3;
-text-align:center;
-  
-}
-
-.grid-item-4 {
-
-grid-column-start: 1;
-grid-column-end: 3;
-  
-}
-
