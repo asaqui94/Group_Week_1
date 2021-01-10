@@ -32,7 +32,7 @@ body {
 }
 
 input::placeholder {
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
 }
 
 .main-heading, #username, #email, #lock, #signup-btn, #othertext {
